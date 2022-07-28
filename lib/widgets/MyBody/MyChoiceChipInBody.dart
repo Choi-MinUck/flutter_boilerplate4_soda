@@ -24,7 +24,7 @@ class _MyChoiceChipInBodyState extends State<MyChoiceChipInBody> {
   @override
   Widget build(BuildContext context) {
     return Wrap(
-      spacing: 4,
+      spacing: -5,
       direction: Axis.horizontal,
       children: MyChips(),
     );
